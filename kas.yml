@@ -6,7 +6,8 @@ repos:
 
   poky:
     url: https://git.yoctoproject.org/git/poky
-    refspec: 5d822b31316663c838c5864ab68b28fb3ca41351
+    branch: kirkstone
+    # refspec: 5d822b31316663c838c5864ab68b28fb3ca41351
     layers:
       meta:
       meta-poky:
@@ -14,7 +15,8 @@ repos:
 
   meta-openembedded:
     url: http://git.openembedded.org/meta-openembedded
-    refspec: a88cb922f91fda95e8a584cee3092083d5ad3e98
+    branch: kirkstone
+    # refspec: a88cb922f91fda95e8a584cee3092083d5ad3e98
     layers:
       meta-oe:
       meta-networking:
@@ -23,17 +25,20 @@ repos:
 
   meta-virtualization:
     url: https://git.yoctoproject.org/git/meta-virtualization
-    refspec: 2d8b3cba8ff27c9ec2187a52b6a551fe1dcfaa07
+    branch: kirkstone
+    # refspec: 2d8b3cba8ff27c9ec2187a52b6a551fe1dcfaa07
 
   meta-security:
     url: https://git.yoctoproject.org/git/meta-security
-    refspec: 06c240c3c235fa06fe724e278d53463ac67cc26b
+    branch: kirkstone
+    # refspec: 06c240c3c235fa06fe724e278d53463ac67cc26b
     layers:
       meta-tpm:
 
   meta-selinux:
     url: https://git.yoctoproject.org/git/meta-selinux
-    refspec: a401f4b2816a0b41ce8d9351542658c721935bcd
+    branch: kirkstone
+    # refspec: a401f4b2816a0b41ce8d9351542658c721935bcd
 
 bblayers_conf_header:
   standard: |

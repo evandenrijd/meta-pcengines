@@ -1,0 +1,14 @@
+header:
+    version: 14
+overrides:
+    repos:
+        meta-openembedded:
+            commit: 730e44900a0a86265bad93a16b5a5ff344a07266
+        meta-security:
+            commit: 1a3e42cedbd94ca73be45800d0e902fec35d0f0f
+        meta-selinux:
+            commit: a401f4b2816a0b41ce8d9351542658c721935bcd
+        meta-virtualization:
+            commit: 88327090d26955a678c6f8bd2585aad4d802f6c4
+        poky:
+            commit: 54af8c5e80ebf63707ef4e51cc9d374f716da603
